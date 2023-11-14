@@ -1,0 +1,582 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2722558200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.openFacebookApplication()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify login with Username",
+        "description": "",
+        "id": "facebook-login-page-with-params;verify-login-with-username;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 147383800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.closeApplication()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 176380500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#\tGiven Open facebook application"
+              }
+            ],
+            "line": 7,
+            "name": "Input to email textbox with \"huyenpt@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "huyenpt@gmail.com",
+                  "offset": 29
+                }
+              ],
+              "location": "FacebookSteps.inputToEmailTextboxWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114624900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Input to password textbox with \"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456789",
+                  "offset": 32
+                }
+              ],
+              "location": "FacebookSteps.inputToPasswordTextboxWith(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67763800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click to login button",
+            "match": {
+              "location": "FacebookSteps.clickToLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@login_with_param"
+          },
+          {
+            "line": 1,
+            "name": "@login_02"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1673856800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.openFacebookApplication()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify login with Username",
+        "description": "",
+        "id": "facebook-login-page-with-params;verify-login-with-username;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 206600900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.closeApplication()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 114291400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#\tGiven Open facebook application"
+              }
+            ],
+            "line": 7,
+            "name": "Input to email textbox with \"huy@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "huy@gmail.com",
+                  "offset": 29
+                }
+              ],
+              "location": "FacebookSteps.inputToEmailTextboxWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100735900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Input to password textbox with \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345678",
+                  "offset": 32
+                }
+              ],
+              "location": "FacebookSteps.inputToPasswordTextboxWith(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60067300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click to login button",
+            "match": {
+              "location": "FacebookSteps.clickToLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@login_with_param"
+          },
+          {
+            "line": 1,
+            "name": "@login_02"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1596184100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.openFacebookApplication()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verify login with Username",
+        "description": "",
+        "id": "facebook-login-page-with-params;verify-login-with-username;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 127854100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.closeApplication()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 264467600,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 20,
+                "value": "#\tGiven Open facebook application"
+              }
+            ],
+            "line": 21,
+            "name": "Input to username and password textbox",
+            "match": {
+              "location": "FacebookSteps.inputToUsernameAndPasswordTextbox(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Password"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "huyenpt@gmail.com",
+                  "123456789"
+                ],
+                "line": 23
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74844200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click to login button",
+            "match": {
+              "location": "FacebookSteps.clickToLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@login_datatable_step"
+          },
+          {
+            "line": 1,
+            "name": "@login_02"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1709174100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.openFacebookApplication()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Verify login with Username",
+        "description": "",
+        "id": "facebook-login-page-with-params;verify-login-with-username;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 130884200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.closeApplication()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 271224400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 20,
+                "value": "#\tGiven Open facebook application"
+              }
+            ],
+            "line": 21,
+            "name": "Input to username and password textbox",
+            "match": {
+              "location": "FacebookSteps.inputToUsernameAndPasswordTextbox(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Password"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "huy@gmail.com",
+                  "12345678"
+                ],
+                "line": 23
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60820700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click to login button",
+            "match": {
+              "location": "FacebookSteps.clickToLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@login_datatable_step"
+          },
+          {
+            "line": 1,
+            "name": "@login_02"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login page with params",
+    "description": "",
+    "id": "facebook-login-page-with-params",
+    "keyword": "Feature",
+    "uri": "loginWithParams.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login_02"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#\tBackground: Open facebook application"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 1620151300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.openFacebookApplication()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify login page display",
+        "description": "",
+        "id": "login-without-param;verify-login-page-display",
+        "after": [
+          {
+            "result": {
+              "duration": 116292500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.closeApplication()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 57124500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#Given Open facebook application"
+              }
+            ],
+            "line": 9,
+            "name": "Verify email textbox is display",
+            "match": {
+              "location": "FacebookSteps.verifyEmailTextboxIsDisplay()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27021400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify password textbox is display",
+            "match": {
+              "location": "FacebookSteps.verifyPasswordTextboxIsDisplay()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@displayed"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 11,
+            "value": "#And Close application"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 1654981300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.openFacebookApplication()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify login with Username",
+        "description": "",
+        "id": "login-without-param;verify-login-with-username",
+        "after": [
+          {
+            "result": {
+              "duration": 163796800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookSteps.closeApplication()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 129669000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#\tGiven Open facebook application"
+              }
+            ],
+            "line": 16,
+            "name": "Input to email textbox",
+            "match": {
+              "location": "FacebookSteps.inputToEmailTextbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135248700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Input to password textbox",
+            "match": {
+              "location": "FacebookSteps.inputToPasswordTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85181200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click to login button",
+            "match": {
+              "location": "FacebookSteps.clickToLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@login_without_param"
+          }
+        ]
+      }
+    ],
+    "name": "Login without param",
+    "description": "",
+    "id": "login-without-param",
+    "keyword": "Feature",
+    "uri": "loginWithoutParam.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login_01"
+      }
+    ]
+  }
+]
