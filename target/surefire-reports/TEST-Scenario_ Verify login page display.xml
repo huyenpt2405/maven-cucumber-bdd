@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cucumberConfig.TestRunner" time="0.004" tests="12" errors="0" skipped="0" failures="0">
+<testsuite name="Scenario: Verify login page display" time="0.001" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
@@ -38,14 +38,13 @@
     <property name="user.home" value="C:\Users\huyenphamt1"/>
     <property name="user.timezone" value="Asia/Bangkok"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="BROWSER" value="chrome"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="huyenphamt1"/>
     <property name="java.class.path" value="D:\Software\software\apache-maven-3.9.3\boot\plexus-classworlds-2.7.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DBROWSER=chrome verify"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test verify"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -65,16 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given I open login page" classname="Scenario: Register and Login to application" time="0.003"/>
-  <testcase name="And I click to here link" classname="Scenario: Register and Login to application" time="0"/>
-  <testcase name="And I input to email textbox with data &quot;seleniumjava@gmail.com&quot;" classname="Scenario: Register and Login to application" time="0"/>
-  <testcase name="And I click to submit button at register page" classname="Scenario: Register and Login to application" time="0"/>
-  <testcase name="Then I get username" classname="Scenario: Register and Login to application" time="0"/>
-  <testcase name="And I get password" classname="Scenario: Register and Login to application" time="0"/>
-  <testcase name="When I open login page again" classname="Scenario: Register and Login to application" time="0"/>
-  <testcase name="And I input to username textbox" classname="Scenario: Register and Login to application" time="0"/>
-  <testcase name="And I input to password textbox" classname="Scenario: Register and Login to application" time="0"/>
-  <testcase name="And I click to login button" classname="Scenario: Register and Login to application" time="0"/>
-  <testcase name="Then Verify Home page displayed with message &quot;Welcome To Manager&apos;s Page of Guru99 Bank&quot;" classname="Scenario: Register and Login to application" time="0"/>
-  <testcase name="Scenario: Register and Login to application" classname="Scenario: Register and Login to application" time="0.001"/>
+  <testcase name="Scenario: Verify login page display" classname="Scenario: Verify login page display" time="0"/>
+  <testcase name="Then Verify email textbox is display" classname="Scenario: Verify login page display" time="0.001"/>
+  <testcase name="And Verify password textbox is display" classname="Scenario: Verify login page display" time="0"/>
 </testsuite>

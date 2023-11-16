@@ -1,0 +1,184 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Register and Login to application",
+        "description": "",
+        "id": "register-and-login-to-bank-guru;register-and-login-to-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7614715000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I open login page",
+            "match": {
+              "location": "LoginPageSteps.iOpenLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 247438799,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#Then Click to close popup"
+              }
+            ],
+            "line": 11,
+            "name": "I click to here link",
+            "match": {
+              "location": "LoginPageSteps.iClickToHereLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5862530401,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input to email textbox with data \"seleniumjava@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "seleniumjava@gmail.com",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterPageSteps.iInputToEmailTextboxWithData(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2791106600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click to submit button at register page",
+            "match": {
+              "location": "RegisterPageSteps.iClickToSubmitButtonAtRegisterPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49253900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I get username",
+            "match": {
+              "location": "RegisterPageSteps.iGetUsername()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60285199,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I get password",
+            "match": {
+              "location": "RegisterPageSteps.iGetPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 935064799,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I open login page again",
+            "match": {
+              "location": "LoginPageSteps.iOpenLoginPageAgain()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128633901,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I input to username textbox",
+            "match": {
+              "location": "LoginPageSteps.iInputToUsernameTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100037500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I input to password textbox",
+            "match": {
+              "location": "LoginPageSteps.iInputToPasswordTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1175448500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click to login button",
+            "match": {
+              "location": "LoginPageSteps.iClickToLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83578100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify Home page displayed with message \"Welcome To Manager\u0027s Page of Guru99 Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome To Manager\u0027s Page of Guru99 Bank",
+                  "offset": 41
+                }
+              ],
+              "location": "HomePageSteps.verifyHomePageDisplayedWithMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Register and login to bank guru",
+    "description": "As a PO\nI want to login to application\nSo that verify login function work properly",
+    "id": "register-and-login-to-bank-guru",
+    "keyword": "Feature",
+    "uri": "registerAndLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@register_and_login"
+      }
+    ]
+  }
+]

@@ -21,7 +21,9 @@ pageObjects\RegisterPageObject.class
 pageUIs\RegisterPageUI.class
 factoryBrowser\BrowserFactory.class
 factoryBrowser\EdgeDriverManager.class
+pageUIs\CommonPageUI.class
 commons\BasePage$1.class
+pageObjects\CommonPageObject.class
 factoryBrowser\ChromeDriverManager.class
 pageUIs\HomePageUI.class
 com\nopcommerce\data\UserData$Invoice.class

@@ -13,11 +13,13 @@ D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\ja
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\factoryBrowser\BraveDriverManager.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\pageObjects\LoginPageObject.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\factoryBrowser\HeadlessFirefoxDriverManager.java
+D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\pageUIs\CommonPageUI.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\utilities\DataHelper.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\com\nopcommerce\data\UserDataMapper.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\utilities\EnvironmentList.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\pageUIs\HomePageUI.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\factoryBrowser\BrowserFactory.java
+D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\pageObjects\CommonPageObject.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\com\nopcommerce\data\AdminData.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\com\nopcommerce\data\UserData.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\main\java\factoryBrowser\ChromeDriverManager.java

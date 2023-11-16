@@ -5,3 +5,4 @@ D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\test\ja
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\test\java\cucumberConfig\TestRunner.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\test\java\bankGuru\stepDefinitions\LoginPageSteps.java
 D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\test\java\cucumberConfig\FacebookTestRunner.java
+D:\Automation_with_selenium\05-Cucumber-Framework\maven-cucumber-bdd\src\test\java\bankGuru\stepDefinitions\CommonPageSteps.java

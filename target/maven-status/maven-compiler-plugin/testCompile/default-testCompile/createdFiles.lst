@@ -3,6 +3,7 @@ bankGuru\stepDefinitions\RegisterPageSteps.class
 cucumberConfig\Hooks.class
 bankGuru\stepDefinitions\HomePageSteps.class
 cucumberConfig\TestRunner.class
+bankGuru\stepDefinitions\CommonPageSteps.class
 cucumberConfig\Hooks$BrowserCleanup.class
 bankGuru\stepDefinitions\LoginPageSteps.class
 cucumberConfig\FacebookTestRunner.class

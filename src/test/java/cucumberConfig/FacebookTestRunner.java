@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		glue = "facebook.stepDefinitions",
 		monochrome = true,
 //		dryRun = true,
-		plugin = {"pretty", "html:target/site/cucumber-report-default", "json:target/site/cucumber.json"},
+		plugin = {"pretty", "html:target/site/cucumber-report-default", "json:target/site/facbookCucumber.json"},
 		snippets = SnippetType.CAMELCASE,
 		tags = {"@login_01"}
 		)

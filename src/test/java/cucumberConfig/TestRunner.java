@@ -12,9 +12,9 @@ import cucumber.api.junit.Cucumber;
 		glue = "bankGuru.stepDefinitions",
 		monochrome = true,
 //		dryRun = true,
-		plugin = {"pretty", "html:target/site/cucumber-report-default", "json:target/site/cucumber.json"},
+		plugin = {"pretty", "html:target/site/cucumber-report-default", "json:target/site/bankGuruCucumber.json"},
 		snippets = SnippetType.CAMELCASE,
-		tags = {"@register_and_login"}
+		tags = {"@login"}
 		)
 
 public class TestRunner {
